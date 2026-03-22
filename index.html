@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Nayra Lima</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1> Nayra <span>Lima</span></h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" aria-label="sessão curriculo Nayra" class="section-div"> 
+            <div>
+                <h2 class="digitando">Olá, me chamo Nayra!</h2>
+                <p>Tenho 27 anos, sou estudante de Engenharia de Software e estou começando minha jornada no mundo do front-end. 
+                    Estou sempre aprendendo coisas novas e dando meus primeiros passos na criação de interfaces e experiências para a web. <br>
+                    No futuro, quero me tornar uma desenvolvedora full-stack e trabalhar em projetos cada vez mais completos.
+                    Além disso, gosto de ler e viajar, o que me ajuda a expandir minha visão de mundo e criatividade — habilidades que levo também para os meus projetos.</p>
+            </div>
+            <img src="nayra.png" alt="Foto de Nayra Lima">
+        </section>
+
+        <section id="formacao" class="section-formacao">
+            <h2>Minha Formação</h2>
+            <div class="grid-formacao">
+                <div class="card-formacao">
+                    <h3>Engenharia de Software <span>| Graduação em andamento</span></h3>
+                    <p>Foco em desenvolvimento de sistemas, lógica de programação e arquitetura.</p>
+                </div>
+                <div class="card-formacao">
+                    <h3>Programação em Python <span>| 80 Horas</span></h3>
+                    <p>Desenvolvimento de scripts, automação de tarefas e fundamentos de Ciência de Dados.</p>
+                </div>
+                <div class="card-formacao">
+                    <h3>Inglês Intermediário <span>| Em desenvolvimento</span></h3>
+                    <p>Capacidade de leitura técnica, documentação e comunicação funcional.</p>
+                </div>
+                <div class="card-formacao">
+                    <h3>Montador de Veículos <span>| Formação Técnica</span></h3>
+                    <p>Experiência com processos industriais, precisão técnica e trabalho em equipe.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portifolio" class="section-portifolio">
+            <h2>Meu Portfólio</h2>
+            <div class="container-projetos">
+                <a href="https://nayra-f.github.io/Rel-gio-Digital/" target="_blank" class="projeto-link">
+                    <img src="/relogio.png" alt="Link para o projeto Relógio Digital">
+                </a>
+                <a href="https://nayra-f.github.io/fds.uninter/" target="_blank" class="projeto-link">
+                    <img src="/site.png" alt="Link para o projeto Site sobre mim">
+                </a>
+            </div>
+        </section>
+
+        <section id="contato" class="section-contato">
+            <h2>Entre em Contato</h2>
+            <form id="contato-form">
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Seu nome completo" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="usuario@dominio.com" required>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" rows="5" placeholder="Como posso te ajudar?" required></textarea>
+                </div>
+                <button type="submit" id="btn-enviar">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
